@@ -26,11 +26,13 @@ npm install
 
 3. Crie um arquivo .env na raiz do projeto com as seguintes chaves para a API do TMDB:
 
+```bash
 VITE_API_KEY=sua_key_aqui
 VITE_API=https://api.themoviedb.org/3
 VITE_SEARCH=https://api.themoviedb.org/3/search/movie
 VITE_IMAGE=https://image.tmdb.org/t/p/w500/
 VITE_TOKEN_KEY=seu_token_aqui
+```
 
 🔐 Importante: Nunca compartilhe sua chave da API publicamente.
 
@@ -56,7 +58,7 @@ Navegação entre páginas com React Router
 Responsividade e boa experiência de usuário
 
 📁 Estrutura de Pastas
-
+```bash
 src/
 ├── components/
 ├── pages/
@@ -64,6 +66,7 @@ src/
 ├── services/
 ├── types/
 └── App.tsx
+```
 
 🛠️ Scripts Disponíveis
 
